@@ -17,7 +17,7 @@ const creElem = images.map(image =>
   `<li>
   <img src="${image.url}" alt="${image.alt}" width=300px>
   </li>`
-);
+).join('');
 
 
 list.insertAdjacentHTML("beforeend", creElem);
